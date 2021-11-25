@@ -1,6 +1,5 @@
 import { Empleado } from "../empleado";
 import { HorasTrabajasPorDia } from "../horas-trabajadas-por-dia";
-//import {calcularCoincidencias} from "../calcular-coincidencias"
 import { convertirCadenaComoEmpleado } from "../conversor-cadena-a-empleado";
 
 test('Toma una cadena y la transforma a un objeto empleado', () => {

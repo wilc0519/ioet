@@ -66,9 +66,9 @@ npm test
 ## ARQUITECTURA
 
 TypeScript fue usado como lenguaje de programación
-Jest el framework de pruebas fue usado para ejecutar las pruebas unitarias
+Jest el framework de pruebas fue usado para escriibir las pruebas unitarias
 En la clase Empleado se guarda el nombre y las horas trabajadas por día
-En la clase HorasTrabajadasPorDias se guarda el día, la hora de inicio y la hora de fin.
+En la clase HorasTrabajadasPorDia se guarda el día, la hora de inicio y la hora de fin.
 Estas clases fueron creadas para organizar la información
 Para cada uno de los pasos descritos en la solución fueron creadas funciones separadas.
 

@@ -37,3 +37,41 @@ The solution shouldn’t need any UI, a console application is good enough.
 When submitting your exercise, be sure to avoid including compiled files as this could be considered malware. Please include the proper instructions to compile your project in the README file
 
 This exercise should be completed within a week. If for some reason you are unable to finish on time, please let us know.
+## EJECUTAR PROGRAMA EN LOCAL
+
+1. En la raíz del proyecto ejecutar el siguiente comando para instalar dependencias 
+
+npm install
+
+2. Para correr el programa, en la raíz del proyecto ejecutar en consola 
+
+npm start
+
+3. Para correr las pruebas unitarias en la raíz  del proyecto  ejecutar en consola
+
+npm test
+
+## DESCRIPCION ACERCA DE LA SOLUCION
+
+1. Se lee el archivo txt
+
+2. Convertimos lo leído en un arreglo con la información de los empleados
+
+3. Creamos las clase Empleado y HorasTrabajadasPortDia
+
+4. Convertimos el arreglo con la información de los empleados a objetos de tipo empleado
+
+5. Calculamos coincidencias 
+
+## ARQUITECTURA
+
+TypeScript fue usado como lenguaje de programación
+Jest el framework de pruebas fue usado para ejecutar las pruebas unitarias
+En la clase Empleado se guarda el nombre y las horas trabajadas por día
+En la clase HorasTrabajadasPorDias se guarda el día, la hora de inicio y la hora de fin.
+Estas clases fueron creadas para organizar la información
+Para cada uno de los pasos descritos en la solución fueron creadas funciones separadas.
+
+## METODOLOGIA
+
+TDD fue la metodología usada para la elaboración del proyecto para la solución del problema, esto quiere decir que primero se creo una prueba unitaria que fallara, luego se escribe código para que la prueba se ejecute correctamente, una vez que las pruebas pasen se refactoriza el código.

@@ -4,7 +4,7 @@
   "description": "ioet",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node --extensions \".ts\" ./solution/calcular-coincidencias.ts",
+    "start": "babel-node --extensions \".ts\" ./solution/solucion.ts",
     "test": "jest --detectOpenHandles"
   },
   "keywords": [

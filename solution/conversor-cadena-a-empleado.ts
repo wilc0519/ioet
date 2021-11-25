@@ -1,7 +1,7 @@
 import { Empleado } from "./empleado"
 import { HorasTrabajasPorDia } from "./horas-trabajadas-por-dia"
 
-export const convertirCadenaComoEmpleado = (cadena: string)=>{
+export const convertirCadenaComoEmpleado = (cadena: string):Empleado=>{
     const horasDiasTrabajados: HorasTrabajasPorDia[] = []
     const arregloNombreHorasDiasTrabajados = cadena.split('=')
     const nombreEmpleado = arregloNombreHorasDiasTrabajados[0]
